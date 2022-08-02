@@ -39,6 +39,63 @@
     grid-column-end: 5;
 }
 
+.header-top {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+input#site-search {
+    display: grid;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: lightgray;
+}
+
+.profile-menu {
+    display: grid;
+    justify-content: end;
+    grid-template-columns: 1fr 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.header-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.profile-info {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.menu-action {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.header-btns {
+    padding: 5px 20px;
+    border-radius: 20px;
+    border-width: 0;
+    background-color: lightblue;
+}
+
 .content {
     background-color: lightgray;
     display: grid;
